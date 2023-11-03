@@ -17,9 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatumiRodenja", "DatumiRode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DaniMjeseca", "DaniMjeseca\DaniMjeseca.csproj", "{E648B6A5-75CB-4442-BA30-8170C9C1DD5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Djelitelji", "Djelitelji\Djelitelji.csproj", "{2A91BF11-FF10-4AED-8F33-91189C276723}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Djelitelji", "Djelitelji\Djelitelji.csproj", "{2A91BF11-FF10-4AED-8F33-91189C276723}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Djelitelji_DoPetlja", "Djelitelji_DoPetlja\Djelitelji_DoPetlja.csproj", "{2A147D45-F5C1-437C-96CA-872B357732E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Djelitelji_DoPetlja", "Djelitelji_DoPetlja\Djelitelji_DoPetlja.csproj", "{2A147D45-F5C1-437C-96CA-872B357732E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IzracunKamata", "IzracunKamata\IzracunKamata.csproj", "{03412EF9-8A3D-4491-A849-787A340DFF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IzracunKamata_ProvjeraParametara", "IzracunKamata_ProvjeraParametara\IzracunKamata_ProvjeraParametara.csproj", "{34CA1793-F9A5-471F-A29F-F14448566DCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtplataKredita", "OtplataKredita\OtplataKredita.csproj", "{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{2A147D45-F5C1-437C-96CA-872B357732E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A147D45-F5C1-437C-96CA-872B357732E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A147D45-F5C1-437C-96CA-872B357732E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03412EF9-8A3D-4491-A849-787A340DFF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03412EF9-8A3D-4491-A849-787A340DFF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03412EF9-8A3D-4491-A849-787A340DFF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03412EF9-8A3D-4491-A849-787A340DFF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CA1793-F9A5-471F-A29F-F14448566DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CA1793-F9A5-471F-A29F-F14448566DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CA1793-F9A5-471F-A29F-F14448566DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CA1793-F9A5-471F-A29F-F14448566DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
