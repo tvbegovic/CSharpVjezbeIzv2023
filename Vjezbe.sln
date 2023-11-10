@@ -21,11 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Djelitelji", "Djelitelji\Dj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Djelitelji_DoPetlja", "Djelitelji_DoPetlja\Djelitelji_DoPetlja.csproj", "{2A147D45-F5C1-437C-96CA-872B357732E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IzracunKamata", "IzracunKamata\IzracunKamata.csproj", "{03412EF9-8A3D-4491-A849-787A340DFF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IzracunKamata", "IzracunKamata\IzracunKamata.csproj", "{03412EF9-8A3D-4491-A849-787A340DFF69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IzracunKamata_ProvjeraParametara", "IzracunKamata_ProvjeraParametara\IzracunKamata_ProvjeraParametara.csproj", "{34CA1793-F9A5-471F-A29F-F14448566DCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IzracunKamata_ProvjeraParametara", "IzracunKamata_ProvjeraParametara\IzracunKamata_ProvjeraParametara.csproj", "{34CA1793-F9A5-471F-A29F-F14448566DCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtplataKredita", "OtplataKredita\OtplataKredita.csproj", "{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OtplataKredita", "OtplataKredita\OtplataKredita.csproj", "{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brojevi", "Brojevi\Brojevi.csproj", "{1E0578C0-56E0-4220-9ABE-FEF10B36FB87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF14164E-A638-4D59-8EB8-CDFEDA1FD2FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0578C0-56E0-4220-9ABE-FEF10B36FB87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0578C0-56E0-4220-9ABE-FEF10B36FB87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0578C0-56E0-4220-9ABE-FEF10B36FB87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0578C0-56E0-4220-9ABE-FEF10B36FB87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
