@@ -68,7 +68,7 @@ do
         prosjek = brojevi.Average();
         najmanji = brojevi.Min();
         najveci = brojevi.Max();
-        var sortirano = brojevi.OrderBy(x => -x).ToArray();
+        var sortirano = brojevi.OrderBy(x => x).ToArray();
         var sortSilazno = brojevi.OrderByDescending(x => x).ToArray();
 
         Console.WriteLine("Suma elemenata polja je {0}", zbroj);
