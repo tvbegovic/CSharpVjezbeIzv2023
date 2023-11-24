@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Igre_Klase
+namespace ListeObjekata
 {
     public partial class Glavna : Form
     {
+        List<Igra> igre = new List<Igra>();
         public Glavna()
         {
             InitializeComponent();
@@ -25,7 +26,7 @@ namespace Igre_Klase
             var izdavac = txtIzdavac.Text;
             var unos = txtDatum.Text;
             var ok = DateTime.TryParse(unos, out DateTime datum);
-            if(!ok)
+            if (!ok)
             {
                 MessageBox.Show("Datum je u pogrešnom formatu");
                 return;
@@ -46,12 +47,19 @@ namespace Igre_Klase
                 igra.Vrsta = vrsta;
                 igra.DatumIzdavanja = datum;
                 igra.Cijena = cijena;
-                MessageBox.Show("Podaci su uspješno uneseni");
+                igre.Add(igra);
+                AzurirajGrid();
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Dogodila se pogreška. Tekst: {ex.Message}");
             }
+        }
+
+        void AzurirajGrid()
+        {
+            dgvIgre.DataSource = null;
+            dgvIgre.DataSource = igre;
         }
     }
 }

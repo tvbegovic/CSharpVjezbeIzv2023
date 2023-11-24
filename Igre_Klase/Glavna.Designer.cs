@@ -148,7 +148,7 @@
             this.btnUnesi.TabIndex = 35;
             this.btnUnesi.Text = "Unesi";
             this.btnUnesi.UseVisualStyleBackColor = true;
-            
+            this.btnUnesi.Click += new System.EventHandler(this.btnUnesi_Click);
             // 
             // Glavna
             // 

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DAC24E6D-8F2C-4124-9535-AAF3A67DF4D5}</ProjectGuid>
+    <ProjectGuid>{13F9A73C-C895-4111-A4C7-70E661E6370C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Igre_Klase</RootNamespace>
-    <AssemblyName>Igre_Klase</AssemblyName>
+    <RootNamespace>ListeObjekata</RootNamespace>
+    <AssemblyName>ListeObjekata</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
