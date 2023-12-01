@@ -42,6 +42,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvIgre = new System.Windows.Forms.DataGridView();
+            this.btnSpremi = new System.Windows.Forms.Button();
+            this.btnUcitaj = new System.Windows.Forms.Button();
+            this.btnUkloni = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvIgre)).BeginInit();
             this.SuspendLayout();
             // 
@@ -162,12 +165,45 @@
             this.dgvIgre.Size = new System.Drawing.Size(914, 300);
             this.dgvIgre.TabIndex = 49;
             // 
+            // btnSpremi
+            // 
+            this.btnSpremi.Location = new System.Drawing.Point(235, 167);
+            this.btnSpremi.Name = "btnSpremi";
+            this.btnSpremi.Size = new System.Drawing.Size(126, 45);
+            this.btnSpremi.TabIndex = 48;
+            this.btnSpremi.Text = "Spremi";
+            this.btnSpremi.UseVisualStyleBackColor = true;
+            this.btnSpremi.Click += new System.EventHandler(this.btnSpremi_Click);
+            // 
+            // btnUcitaj
+            // 
+            this.btnUcitaj.Location = new System.Drawing.Point(381, 167);
+            this.btnUcitaj.Name = "btnUcitaj";
+            this.btnUcitaj.Size = new System.Drawing.Size(126, 45);
+            this.btnUcitaj.TabIndex = 48;
+            this.btnUcitaj.Text = "Učitaj";
+            this.btnUcitaj.UseVisualStyleBackColor = true;
+            this.btnUcitaj.Click += new System.EventHandler(this.btnUcitaj_Click);
+            // 
+            // btnUkloni
+            // 
+            this.btnUkloni.Location = new System.Drawing.Point(534, 167);
+            this.btnUkloni.Name = "btnUkloni";
+            this.btnUkloni.Size = new System.Drawing.Size(123, 45);
+            this.btnUkloni.TabIndex = 50;
+            this.btnUkloni.Text = "Ukloni";
+            this.btnUkloni.UseVisualStyleBackColor = true;
+            this.btnUkloni.Click += new System.EventHandler(this.btnUkloni_Click);
+            // 
             // Glavna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(990, 595);
+            this.Controls.Add(this.btnUkloni);
             this.Controls.Add(this.dgvIgre);
+            this.Controls.Add(this.btnUcitaj);
+            this.Controls.Add(this.btnSpremi);
             this.Controls.Add(this.btnUnesi);
             this.Controls.Add(this.txtOpis);
             this.Controls.Add(this.txtIzdavac);
@@ -205,6 +241,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dgvIgre;
+        private System.Windows.Forms.Button btnSpremi;
+        private System.Windows.Forms.Button btnUcitaj;
+        private System.Windows.Forms.Button btnUkloni;
     }
 }
 

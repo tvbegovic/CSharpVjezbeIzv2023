@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -60,6 +61,50 @@ namespace ListeObjekata
         {
             dgvIgre.DataSource = null;
             dgvIgre.DataSource = igre;
+        }
+
+        private void btnSpremi_Click(object sender, EventArgs e)
+        {
+            var datoteka = new StreamWriter("igre.txt");
+            foreach (var igra in igre)
+            {
+                datoteka.WriteLine("{0};{1};{2};{3};{4};{5}", igra.Naziv, igra.Opis, igra.Vrsta, igra.Cijena,
+                    igra.DatumIzdavanja, igra.Izdavac);
+            }
+            datoteka.Close();
+        }
+
+        private void btnUcitaj_Click(object sender, EventArgs e)
+        {
+            var redci = File.ReadAllLines("igre.txt");            
+            foreach (var redak in redci)
+            {
+                var stupci = redak.Split(';');                
+                var igra = new Igra();
+                igra.Naziv = stupci[0];
+                igra.Opis = stupci[1];
+                igra.Vrsta = stupci[2];
+                igra.Izdavac = stupci[5];
+                var ok = double.TryParse(stupci[3], out double cijena);
+                if (ok)
+                    igra.Cijena = cijena;
+                ok = DateTime.TryParse(stupci[4], out DateTime datum);
+                if (ok)
+                    igra.DatumIzdavanja = datum;
+                igre.Add(igra);                
+            }
+            AzurirajGrid();
+        }
+
+        private void btnUkloni_Click(object sender, EventArgs e)
+        {
+            var index = dgvIgre.CurrentCell.RowIndex;
+            if(index >= 0)
+            {
+                igre.RemoveAt(index);
+                AzurirajGrid();
+            }
+            
         }
     }
 }
